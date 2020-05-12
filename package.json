@@ -1,0 +1,14 @@
+{
+  "name": "leetcode-ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^26.0.1",
+    "ts-jest": "^25.5.1",
+    "typescript": "^3.8.3"
+  }
+}
