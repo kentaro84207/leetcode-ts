@@ -7,7 +7,7 @@ export const twoSum = (nums: number[], target: number): [number, number] => {
     const value = nums[i]
     const matchIndex = map.get(target - value);
 
-    if (matchIndex >= 0) return [matchIndex, i]
+    if (matchIndex !== undefined) return [matchIndex, i]
 
     map.set(value, i);
   }
