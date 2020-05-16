@@ -1,9 +1,6 @@
 name: Test
 
-on:
-  push:
-    branches:
-    - /*
+on: push
 
 jobs:
   test:
@@ -13,3 +10,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: curl -fsSL https://deno.land/x/install/install.sh | sh
       - run: deno test --allow-net
+      - 
