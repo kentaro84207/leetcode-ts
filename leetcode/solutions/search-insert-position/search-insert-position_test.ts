@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.60.0/testing/asserts.ts";
 import { searchInsert } from "./search-insert-position.ts";
 
 Deno.test("35. Search Insert Position", () => {
