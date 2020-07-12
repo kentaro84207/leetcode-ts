@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.60.0/testing/asserts.ts";
 import { comp } from "./are-they-the-same.ts";
 
 Deno.test("Are they the same?", () => {
@@ -26,4 +26,4 @@ Deno.test("Are they the same?", () => {
       [ 4, 9, 9 ]
     ),
   false);
-}); 
+});

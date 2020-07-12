@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.60.0/testing/asserts.ts";
 import { productFib } from "./product-of-consecutive-fib-numbers.ts";
 
 Deno.test("Product of consecutive Fib numbers", () => {

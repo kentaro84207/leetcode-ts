@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.60.0/testing/asserts.ts";
 import { dirReduc } from "./directions-reduction.ts";
 
 Deno.test("Directions Reduction", () => {
